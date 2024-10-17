@@ -16,16 +16,16 @@ dotnet new sln -o MovieTime
 dotnet new webapi -o MovieTime.Api
 ```
 ```
-dotnet new classlib  -o MovieTime.Contracts
+dotnet new classlib -o MovieTime.Contracts
 ```
 ```
-dotnet new classlib  -o MovieTime.Infrastructure
+dotnet new classlib -o MovieTime.Infrastructure
 ```
 ```
-dotnet new classlib  -o MovieTime.Application
+dotnet new classlib -o MovieTime.Application
 ```
 ```
-dotnet new classlib  -o MovieTime.Domain
+dotnet new classlib -o MovieTime.Domain
 ```
 
 After that, added it into the solution
